@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Example dimension for a grid column width -->
+    <dimen name="grid_column_width">100dp</dimen>
+    <dimen name="text_padding">8dp</dimen>
+    <!-- ...other dimension values... -->
+</resources>

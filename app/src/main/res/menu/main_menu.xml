@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/search"
+            android:icon="@drawable/baseline_search_24"
+            android:title="Search" />
+        <item
+            android:id="@+id/favorite"
+            android:icon="@drawable/baseline_favorite_24"
+            android:title="Liked Songs" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/baseline_settings_24"
+            android:title="Settings" />
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/baseline_exit_to_app_24"
+            android:title="Exit" />
+    </group>
+
+    <!-- Uncomment and modify if you want to add a submenu -->
+    <!--
+    <item android:title="Contact US">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/facebook"
+                    android:icon="@drawable/baseline_settings_24"
+                    android:title="Facebook" />
+            </group>
+        </menu>
+    </item>
+    -->
+</menu>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SpotLyrics</string>
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+    <string name="error_retrieving_data">Error retrieving the data</string>
+    <string name="error_parsing_response">Error parsing the response</string>
+</resources>

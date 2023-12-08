@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/screen"
+    android:padding="40dp"
+    tools:context=".Search">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_alignParentTop="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/editTextQuery"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Search"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textInputLayoutSearch"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/round_btn2"
+        android:text="search"
+        android:textStyle="bold" />
+
+    <!-- Adjustments start here -->
+    <GridView
+        android:id="@+id/gridViewResults"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:numColumns="2"
+    android:columnWidth="@dimen/grid_column_width"
+    android:verticalSpacing="8dp"
+    android:horizontalSpacing="8dp"
+    android:stretchMode="columnWidth"
+    android:layout_below="@id/buttonSearch" />
+</RelativeLayout>
